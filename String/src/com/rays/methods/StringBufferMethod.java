@@ -21,7 +21,6 @@ public class StringBufferMethod {
 		System.out.println("CharAt position 1: " + sb.charAt(1));
 		
 		
-		
 		System.out.println("---------------------");
 		
 		System.out.println("string: " + sb);
@@ -36,6 +35,27 @@ public class StringBufferMethod {
 		System.out.println("Append: " + sb.append(" sivgggfgastava"));
 
 		System.out.println("Reverse: " + sb.reverse());
+		
+		System.out.println("---------------------------");
+		
+		StringBuffer s = new StringBuffer("java");
+		//s.append(", Java is OOP");
+		System.out.println(s);
+		
+		System.out.println("insert b at position 4 : " + s.insert(4, "bbbb"));
+		
+		System.out.println("delete : " + s.delete(4, 8));
+		
+		System.out.println("Reverse: " + s.reverse());
+		
+		System.out.println("Capacity : " + s.capacity());
+		
+		
+		System.out.println("Reverse: " + s.reverse());
+		s.append(", Java is OOP");
+		System.out.println(s);
+		
+		System.out.println("Replace: " + s.replace(0, 4, "Hello"));
 	
 	}
 }
