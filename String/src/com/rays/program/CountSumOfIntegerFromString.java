@@ -4,7 +4,7 @@ public class CountSumOfIntegerFromString {
 
 	public static void main(String[] args) {
 		
-		String s1="Shruti12345Rathore";
+		String s1="Apurva12345";
 		
 		int sum=0;
 		

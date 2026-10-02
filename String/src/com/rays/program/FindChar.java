@@ -7,6 +7,7 @@ public class FindChar {
 		String s1="Apurva";
 		
 		char target='a';
+		
 	    int position = s1.indexOf(target);
 	    
 		if(position!=-1) {
