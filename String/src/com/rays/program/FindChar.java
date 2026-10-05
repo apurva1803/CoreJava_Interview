@@ -11,7 +11,9 @@ public class FindChar {
 	    int position = s1.indexOf(target);
 	    
 		if(position!=-1) {
+			
 			System.out.println("char found : " +target);
+			
 			System.out.println("At position : " +position);
 		}
 		
