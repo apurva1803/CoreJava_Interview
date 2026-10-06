@@ -4,14 +4,14 @@ public class BubbleSort {
 
 	public static void main(String[] args) {
 
-		int[] arr = { 6, 5, 4, 88, 3, 467, 3, 2, 1 };
+		int[] arr = { 66, 51, 40, 88, 35, 67, 21 };
 
 		int temp = 0;
 
 		for (int i = 0; i < arr.length; i++) {
 			for (int j = i + 1; j < arr.length; j++) {
 
-				if (arr[i] < arr[j]) {
+				if (arr[i] > arr[j]) {
 
 					temp = arr[i];
 					arr[i] = arr[j];
@@ -20,7 +20,7 @@ public class BubbleSort {
 				}
 
 			}
-			System.out.println(arr[i]);
+			System.out.print(arr[i]+" ");
 		}
 	}
 }

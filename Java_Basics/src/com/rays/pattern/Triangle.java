@@ -14,3 +14,10 @@ public class Triangle {
 	}
 	
 }
+
+//Output:
+//	* 
+//	* * 
+//	* * * 
+//	* * * * 
+//	* * * * * 
