@@ -13,6 +13,8 @@ public class SecondHighestNo {
 
 			if (first < num[i]) {
 				
+				second = first;
+				
 				first = num[i];
 				
 			} else if (num[i] > second && num[i] < first) {

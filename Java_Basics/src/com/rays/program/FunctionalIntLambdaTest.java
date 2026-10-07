@@ -1,0 +1,18 @@
+package com.rays.program;
+
+public class FunctionalIntLambdaTest {
+
+	public static void main(String[] args) {
+		
+		FunctionalInt f = (a, b) -> {
+			return a + b;
+		};
+		
+		int a = 30;
+		int b = 30;
+
+		System.out.println(f.sum(a, b));
+	}
+}
+
+//60
