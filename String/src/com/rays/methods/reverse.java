@@ -9,6 +9,7 @@ public class reverse {
 		System.out.println(sb);
 		
 		String result = sb.toString();
+		
 		System.out.println(result);
 	}
 }

@@ -10,9 +10,11 @@ public class PalindromeNo {
 		int r = 0;
 
 		while (num2 > 0) {
+			
 			r = num2 % 10;
 			temp = temp * 10 + r;
 			num2 = num2 / 10;
+			
 		}
 			if (temp == num1) {
 				System.out.println(num1 + " this is palidrome No ");

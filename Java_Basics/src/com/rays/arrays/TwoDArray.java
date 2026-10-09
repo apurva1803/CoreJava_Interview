@@ -13,6 +13,7 @@ public class TwoDArray {
 				table[i][j] = (i + 1) * (j + 1);
 				System.out.print(table[i][j] + "| ");
 			}
+			
 			System.out.println();
 		}
 	}
