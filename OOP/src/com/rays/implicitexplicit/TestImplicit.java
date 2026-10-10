@@ -11,3 +11,6 @@ public class TestImplicit extends Implicit {
 	}
 
 }
+
+//Output:
+//	Implicit class constructor

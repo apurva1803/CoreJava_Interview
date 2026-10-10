@@ -10,3 +10,7 @@ public class TestAccount {
 		a.Withdrwal(1000);
 	}
 }
+
+//Output:
+//	Balance After Deposite = 2000.0
+//	Balance after Withdrawal = 1000.0

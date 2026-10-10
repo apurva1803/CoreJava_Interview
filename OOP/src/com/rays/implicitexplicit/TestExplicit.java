@@ -11,3 +11,6 @@ public class TestExplicit extends Explicit {
 	}
 
 }
+
+//Output:
+//	Explicit constructor Apurva
