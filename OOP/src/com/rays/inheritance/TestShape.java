@@ -24,3 +24,11 @@ public class TestShape {
 
 	}
 }
+
+//Output:
+//	Shape Area
+//	5
+//	Blue
+//	Rectangle
+//	10
+//	Rectangle = 50.0
