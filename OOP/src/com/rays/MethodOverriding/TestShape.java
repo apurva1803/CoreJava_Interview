@@ -23,8 +23,10 @@ public class TestShape {
 		System.out.println("-----------------------------");
 		
 		
-		//runtime polymorphism(upcasting)
+		//runtime polymorphism(upcasting):assigning a child-class object to a parent-class reference.
+		
 		//The Rectangle object is referenced by a Shape variable.
+		
 		Shape r1 = new Rectangle();
 		
 		System.out.println("Area Of Rectangle: "+r1.area());
@@ -32,8 +34,10 @@ public class TestShape {
 		System.out.println("-----------------------------");
 
 		
-		//downcasting	
+		//downcasting : converting a parent-class reference back to a child-class reference.
+		
 		//(Rectangle) r1 converts the reference to type Rectangle.
+		
 		Rectangle r2 = (Rectangle) r1;
 
 		r2.setLength(10);
@@ -42,3 +46,15 @@ public class TestShape {
 
 	}
 }
+
+//Output:
+//	Rectangle Area Method
+//	Area Of Rectangle: 200.0
+//	-----------------------------
+//	Area Of Triangle: 300.0
+//	-----------------------------
+//	Rectangle Area Method
+//	Area Of Rectangle: 0.0
+//	-----------------------------
+//	Rectangle Area Method
+//	Area Of Rectangle: 200.0

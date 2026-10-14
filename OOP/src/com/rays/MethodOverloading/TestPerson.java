@@ -6,11 +6,11 @@ public class TestPerson {
 
 		Person p = new Person();
 		
-		p.login("apurvaraut9@gmail.com ");
+		p.login("apurva@gmail.com ");
 		
-		p.login("apurvaraut9@gmail.com " , "Apurva123 ");
+		p.login("apurva@gmail.com " , "Apurva123 ");
 		
-		p.login("apurvaraut9@gmail.com " , "Apurva123 ", "Apurva");
+		p.login("apurva@gmail.com " , "Apurva123 ", "Apurva");
 
 	}
 }

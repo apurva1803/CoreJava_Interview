@@ -19,7 +19,7 @@ public class Account {
 
 	public void Withdrwal(double amount) {
 		if (balance < amount) {
-			System.out.println("Insaficiant found");
+			System.out.println("Insufficient Balance");
 		} else {
 			balance = balance - amount;
 			System.out.println("Balance after Withdrawal = " + balance);

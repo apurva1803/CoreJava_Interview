@@ -1,5 +1,8 @@
 package com.rays.MethodOverloading;
 
+//Method overloading is an example of compile-time polymorphism
+//because the compiler determines which overloaded method to call
+
 public class Person {
 
 	public void login(String loginId) {
