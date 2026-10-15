@@ -27,7 +27,7 @@ public class TestShape {
 //Output:
 //	Area Of Rectangle = 4.0
 //	Area = 4.0
-//	Area Of Circle = 12.56
-//	Area = 12.56
+//	Area Of Circle = 78.5
+//	Area = 78.5
 //	Area Of Triangle = 2.0
 //	Area = 2.0

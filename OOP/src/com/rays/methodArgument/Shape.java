@@ -12,7 +12,7 @@ public class Shape {
 			return new Rectangle(2, 2);
 		}
 		if (i == 2) {
-			return new Circle(2);
+			return new Circle(5);
 		}
 		if (i == 3) {
 			return new Triangle(2, 2);
