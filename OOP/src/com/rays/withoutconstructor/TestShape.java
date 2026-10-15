@@ -10,7 +10,7 @@ public class TestShape {
 
 		Circle c = (Circle) s[0];
 
-		c.setRadius(2);
+		c.setRadius(5);
 
 		for (int i = 0; i < s.length; i++) {
 			System.out.println(s[i].area());
@@ -20,4 +20,4 @@ public class TestShape {
 }
 
 //Output:
-//	12.56
+//	78.5

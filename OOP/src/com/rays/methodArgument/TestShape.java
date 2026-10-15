@@ -1,4 +1,4 @@
-package com.rays.methodreturn;
+package com.rays.methodArgument;
 
 public class TestShape {
 
@@ -25,6 +25,8 @@ public class TestShape {
 }
 
 //Output:
+//	Area Of Rectangle = 4.0
+//	Area = 4.0
 //	Area Of Circle = 12.56
 //	Area = 12.56
 //	Area Of Triangle = 2.0

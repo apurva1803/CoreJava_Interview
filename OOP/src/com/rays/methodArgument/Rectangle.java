@@ -1,4 +1,4 @@
-package com.rays.methodreturn;
+package com.rays.methodArgument;
 
 public class Rectangle extends Shape {
 
@@ -12,9 +12,9 @@ public class Rectangle extends Shape {
 
 	public double area() {
 
-		double rArea = length * width;
-		System.out.println("Area Of Rectangle = " + rArea);
-		return rArea;
+		double area = length * width;
+		System.out.println("Area Of Rectangle = " + area);
+		return area;
 
 	}
 }

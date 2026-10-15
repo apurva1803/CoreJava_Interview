@@ -1,4 +1,4 @@
-package com.rays.methodreturn;
+package com.rays.methodArgument;
 
 public class Triangle extends Shape {
 
@@ -12,8 +12,8 @@ public class Triangle extends Shape {
 
 	public double area() {
 
-		double tArea = (base * height) / 2;
-		System.out.println("Area Of Triangle = " + tArea);
-		return tArea;
+		double area = (base * height) / 2;
+		System.out.println("Area Of Triangle = " + area);
+		return area;
 	}
 }

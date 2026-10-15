@@ -1,4 +1,4 @@
-package com.rays.methodreturn;
+package com.rays.methodArgument;
 
 public class Shape {
 

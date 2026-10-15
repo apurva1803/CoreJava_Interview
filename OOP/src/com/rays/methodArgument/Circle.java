@@ -1,4 +1,4 @@
-package com.rays.methodreturn;
+package com.rays.methodArgument;
 
 public class Circle extends Shape {
 
@@ -12,9 +12,9 @@ public class Circle extends Shape {
 
 	public double area() {
 
-		double cArea = PI * radius * radius;
-		System.out.println("Area Of Circle = " + cArea);
-		return cArea;
+		double area = PI * radius * radius;
+		System.out.println("Area Of Circle = " + area);
+		return area;
 
 	}
 
