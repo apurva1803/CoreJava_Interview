@@ -10,16 +10,18 @@ public class CustomerTest {
 		// Original BankAccountDetails object
 		cus.acc = new BankAccountDetails();
 		cus.acc.balance = 100;
+		
+		System.out.println(cus.name);
+		System.out.println(cus.acc.balance);
+		
+		System.out.println("--------");
+		
+		
 
 		// Customer ka clone ban raha hai
 		Customer cus1 = (Customer) cus.clone();
 
 		cus1.acc.balance = 200;
-
-		System.out.println(cus.name);
-		System.out.println(cus.acc.balance);
-		
-		System.out.println("--------");
 
 		// Cloned Customer ke account ka balance change
 

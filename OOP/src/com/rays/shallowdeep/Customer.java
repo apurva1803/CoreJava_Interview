@@ -2,8 +2,8 @@ package com.rays.shallowdeep;
 
 public class Customer implements Cloneable {
 
-	String name;
-	BankAccountDetails acc;
+	public String name;
+	public BankAccountDetails acc;
 
 	public Customer(String name) {
 		this.name = name;

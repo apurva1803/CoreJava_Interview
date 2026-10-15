@@ -7,12 +7,12 @@ public class Deep implements Cloneable {
 
 	@Override
 	protected Object clone() throws CloneNotSupportedException {
-		Deep deep = (Deep) super.clone();
+		Deep d = (Deep) super.clone();
 
 		// Address object ki bhi separate copy
-		deep.address = (Address2) address.clone();
+		d.address = (Address2) address.clone();
 
-		return deep;
+		return d;
 	}
 
 }
